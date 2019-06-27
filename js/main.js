@@ -1,6 +1,11 @@
 $(document).ready(function (){
+<<<<<<< HEAD
     //WHAT WE DO
  var weDo = ['design','development','product'];
+=======
+ 
+    var weDo = ['design','development','product'];
+>>>>>>> 98bc03d9bca55af8149f5477b74696b8047a59fe
     weDo.forEach(function(what){
         $("#"+what).click(function (){
             $("#"+what).hide();
@@ -11,7 +16,11 @@ $(document).ready(function (){
             $("#"+what).show();
         });
     });
+<<<<<<< HEAD
     // PORTFOLIO SECTION
+=======
+    
+>>>>>>> 98bc03d9bca55af8149f5477b74696b8047a59fe
     var workIds = ['work1','work2','work3','work4','work5','work6','work7','work8'];
     workIds.forEach(function(id){
         $("#"+id).mouseover(function () {
@@ -20,13 +29,19 @@ $(document).ready(function (){
         $("#"+id).mouseout(function () {
             $("."+id+"-div").hide();
         });
+<<<<<<< HEAD
     })
     // POP UP AFTER SUBMITING
+=======
+    });
+    
+>>>>>>> 98bc03d9bca55af8149f5477b74696b8047a59fe
     $("button").click(function(event){
         var name = $("#name").val();
         alert(name + " Thanks. We have received your message.");
         event.preventDefault();
     });
+<<<<<<< HEAD
     //RESET BUTTON
     $("button").click(function(event){
         $(".message")[0].reset();
@@ -55,4 +70,10 @@ $(document).ready(function (){
         }
     });
     });
+=======
+    
+    $("button").click(function(event){
+        $(".message")[0].reset();
+    });
+>>>>>>> 98bc03d9bca55af8149f5477b74696b8047a59fe
 });

@@ -166,6 +166,7 @@ footer{
     justify-content: center;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
 #design-info{
     display: hidden;
 
@@ -178,6 +179,9 @@ footer{
     display: hidden;
 
 }
+=======
+
+>>>>>>> 98bc03d9bca55af8149f5477b74696b8047a59fe
 
 
 @media only screen and (max-width: 768px){
