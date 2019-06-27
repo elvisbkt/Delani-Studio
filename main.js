@@ -1,3 +1,4 @@
+<<<<<<< HEAD:js/main.js
 $(document).ready(function (){
 <<<<<<< HEAD
     //WHAT WE DO
@@ -77,3 +78,24 @@ $(document).ready(function (){
     });
 >>>>>>> 98bc03d9bca55af8149f5477b74696b8047a59fe
 });
+=======
+        var workIds = ['work1','work2','work3','work4','work5','work6','work7','work8'];
+    workIds.forEach(function(id){
+        $("#"+id).mouseover(function () {
+            $("."+id+"-div").show();
+        });
+        $("#"+id).mouseout(function () {
+            $("."+id+"-div").hide();
+        });
+    });
+    
+    $("button").click(function(event){
+        var name = $("#name").val();
+        alert(name + " Thanks. We have received your message.");
+        event.preventDefault();
+    });
+    
+    $("button").click(function(event){
+        $(".message")[0].reset();
+    });
+>>>>>>> b2960d6908dfe60b6b29c4d5647915c7bb8bd2fe:main.js
